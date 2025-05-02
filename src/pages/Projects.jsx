@@ -5,12 +5,13 @@ function Projects() {
     <div className="card-body">
       <h5 className="card-title">WeddingWise - Event Management App</h5>
       <p className="card-text">
-      A full-stack wedding event management application built with the MERN stack, featuring event planning, vendor booking options, scheduling, 
-      and secure JWT-based user authentication with login and registration functionality.</p>
-      <a href="https://github.com/RAM0144/event-management-app-frontend" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
+      A full-stack wedding event management platform developed with the MERN stack, featuring event and vendor creation, 
+      booking options, and secure JWT-based user authentication. The app supports user login and registration 
+      functionalities for a seamless, secure experience.</p>
+      <a href="https://github.com/RAM0144/event-management-application-fe" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
         Frontend
       </a>
-      <a href="https://github.com/RAM0144/event-management-app-backend" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/RAM0144/event-management-application-be" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
         Backend
       </a>
     </div>
@@ -37,10 +38,10 @@ function Projects() {
           <h5 className="card-title">WeddingWise - Event Management App</h5>
           <p className="card-text">
           A full-stack wedding event management application (under development) featuring event planning, vendor booking options, scheduling, and secure JWT-based user authentication with login and registration functionality.</p>
-          <a href="https://github.com/RAM0144/weddingwise-event-management-app-fe" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/RAM0144/event-management-app-frontend" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
             Frontend
           </a>
-          <a href="https://github.com/RAM0144/weddingwise-event-management-app-be" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/RAM0144/event-management-app-backend" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
             Backend
           </a>
         </div>
