@@ -5,15 +5,18 @@ function Projects() {
     <div className="card-body">
       <h5 className="card-title">WeddingWise - Event Management App</h5>
       <p className="card-text">
-      A full-stack wedding event management platform developed with the MERN stack, featuring event and vendor creation, 
-      booking options, and secure JWT-based user authentication. The app supports user login and registration 
-      functionalities for a seamless, secure experience.</p>
+      A full-stack wedding event management platform built with the MERN stack, offering event and vendor creation, booking options, 
+      and booking status tracking. The app uses JWT for secure user authentication, with token verification 
+      for accessing event, vendor, and booking features, ensuring a seamless and secure experience.</p>
       <a href="https://github.com/RAM0144/event-management-application-fe" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
         Frontend
       </a>
-      <a href="https://github.com/RAM0144/event-management-application-be" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/RAM0144/event-management-application-be" className="btn btn-outline-secondary me-2" target="_blank" rel="noopener noreferrer">
         Backend
       </a>
+      <a href="https://vermillion-treacle-1b3b48.netlify.app/" className="btn btn-outline-success" target="_blank" rel="noopener noreferrer">
+            Live Demo
+          </a>
     </div>
     </div>
 
@@ -21,32 +24,20 @@ function Projects() {
         <div className="card-body">
           <h5 className="card-title">E-commerce App</h5>
           <p className="card-text">
-          A full-stack e-commerce platform developed with the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring JWT-based user authentication, role-based access control, cart management, and checkout functionality.
+          A full-stack e-commerce platform built with the MERN stack, featuring new product creation, 
+          JWT-based authentication, role-based access control, cart management, and seamless order placement.
           </p>
           <a href="https://github.com/RAM0144/E-Commerce-App-FE" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
             Frontend
           </a>
-          <a href="https://github.com/RAM0144/E-Commerce-App-BE" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/RAM0144/E-Commerce-App-BE" className="btn btn-outline-secondary me-2" target="_blank" rel="noopener noreferrer">
             Backend
+          </a>
+          <a href="https://resplendent-pixie-34c0be.netlify.app/login" className="btn btn-outline-success" target="_blank" rel="noopener noreferrer">
+            Live Demo
           </a>
         </div>
       </div>
-    
-
-    <div className="card mt-4">
-        <div className="card-body">
-          <h5 className="card-title">WeddingWise - Event Management App</h5>
-          <p className="card-text">
-          A full-stack wedding event management application (under development) featuring event planning, vendor booking options, scheduling, and secure JWT-based user authentication with login and registration functionality.</p>
-          <a href="https://github.com/RAM0144/event-management-app-frontend" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
-            Frontend
-          </a>
-          <a href="https://github.com/RAM0144/event-management-app-backend" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
-            Backend
-          </a>
-        </div>
-      </div>
-
     </div>
   );
 }
