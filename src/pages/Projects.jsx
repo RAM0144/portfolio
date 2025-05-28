@@ -6,7 +6,7 @@ function Projects() {
       <h5 className="card-title">WeddingWise - Event Management App</h5>
       <p className="card-text">
       A full-stack wedding event management platform built with the MERN stack, offering event and vendor creation, booking options, 
-      and booking status tracking. The app uses JWT for secure user authentication, with token verification 
+      and booking details. The app uses JWT for secure user authentication, with token verification 
       for accessing event, vendor, and booking features, ensuring a seamless and secure experience.</p>
       <a href="https://github.com/RAM0144/event-management-application-fe" className="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
         Frontend
